@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.lovedone/pipe",
+  "title": "LovedOne Pipe MCP",
+  "description": "Connect LovedOne to healthcare systems: partner events from EHR and EVV into a family's care record.",
+  "version": "0.1.0",
+  "websiteUrl": "https://docs.lovedone.app/mcp",
+  "repository": {
+    "url": "https://github.com/Terahertz-Inc/lovedone-mcp",
+    "source": "github",
+    "subfolder": "pipe"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lovedone.app/mcp/pipe/v1",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token: a Pipe partner key issued by LovedOne",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

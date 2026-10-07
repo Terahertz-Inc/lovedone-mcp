@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.lovedone/family-inbox",
+  "title": "LovedOne Family MCP",
+  "description": "Family inbox: read records; invite, reply, mint codes. API key or OAuth care_circle:write.",
+  "version": "0.3.0",
+  "websiteUrl": "https://inbox.lovedone.app/agents",
+  "repository": {
+    "url": "https://github.com/Terahertz-Inc/lovedone-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lovedone.app/mcp/v1",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token: your LovedOne MCP key from https://inbox.lovedone.app/settings/mcp-keys",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

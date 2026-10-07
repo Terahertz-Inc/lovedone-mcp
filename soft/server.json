@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.lovedone/soft",
+  "title": "LovedOne Soft MCP",
+  "description": "LovedOne Soft: clients, visits, notes, invoices, scheduling. API key or OAuth care_circle:write.",
+  "version": "0.2.0",
+  "websiteUrl": "https://soft.lovedone.app/agents",
+  "repository": {
+    "url": "https://github.com/Terahertz-Inc/lovedone-mcp",
+    "source": "github",
+    "subfolder": "soft"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lovedone.app/mcp/vendor/v1",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token: an agency MCP key from the Soft portal at https://soft.lovedone.app (Settings, MCP keys)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
