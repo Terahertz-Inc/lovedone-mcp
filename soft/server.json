@@ -3,7 +3,7 @@
   "name": "app.lovedone/soft",
   "title": "LovedOne Soft MCP",
   "description": "LovedOne Soft: clients, visits, notes, invoices, scheduling. API key or OAuth care_circle:write.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://soft.lovedone.app/agents",
   "repository": {
     "url": "https://github.com/Terahertz-Inc/lovedone-mcp",

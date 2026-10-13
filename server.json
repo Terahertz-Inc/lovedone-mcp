@@ -3,7 +3,7 @@
   "name": "app.lovedone/family-inbox",
   "title": "LovedOne Family MCP",
   "description": "Family inbox: read records; invite, reply, mint codes. API key or OAuth care_circle:write.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "websiteUrl": "https://inbox.lovedone.app/agents",
   "repository": {
     "url": "https://github.com/Terahertz-Inc/lovedone-mcp",
