@@ -1,5 +1,7 @@
 # LovedOne MCP servers
 
+**Website:** [lovedone.app](https://lovedone.app) · **Family Inbox:** [inbox.lovedone.app](https://inbox.lovedone.app)
+
 This repo lists LovedOne's Model Context Protocol servers in the official MCP
 Registry. All three live under the `app.lovedone/*` namespace, which is
 `lovedone.app` written backwards.
