@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "lovedone-family": {
+      "url": "https://api.lovedone.app/mcp/v1",
+      "headers": {
+        "Authorization": "Bearer ${LOVEDONE_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "lovedone-soft": {
+      "url": "https://api.lovedone.app/mcp/vendor/v1",
+      "headers": {
+        "Authorization": "Bearer ${LOVEDONE_SOFT_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "lovedone-soft": {
+      "type": "streamable-http",
+      "url": "https://api.lovedone.app/mcp/vendor/v1",
+      "headers": {
+        "Authorization": "Bearer ${LOVEDONE_SOFT_API_KEY}"
+      }
+    }
+  }
+}
