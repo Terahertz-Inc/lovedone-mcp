@@ -1,0 +1,24 @@
+{
+  "name": "lovedone",
+  "owner": {
+    "name": "Terahertz, Inc.",
+    "email": "support@lovedone.app"
+  },
+  "metadata": {
+    "description": "LovedOne Family Inbox and Soft MCP plugins for Cursor.",
+    "version": "0.4.1",
+    "pluginRoot": "cursor-plugin"
+  },
+  "plugins": [
+    {
+      "name": "lovedone-family",
+      "source": "lovedone-family",
+      "description": "Authenticated family household inbox, loved ones, and care records for LovedOne."
+    },
+    {
+      "name": "lovedone-soft",
+      "source": "lovedone-soft",
+      "description": "LovedOne Soft agency tools: clients, visits, notes, invoices, and scheduling."
+    }
+  ]
+}
