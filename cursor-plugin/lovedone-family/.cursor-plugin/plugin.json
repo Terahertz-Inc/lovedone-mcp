@@ -1,0 +1,25 @@
+{
+  "name": "lovedone-family",
+  "displayName": "LovedOne Family Inbox",
+  "description": "Authenticated MCP for one LovedOne family household: loved ones, members, and Family Inbox plaintext. Responses can include health information.",
+  "version": "0.4.1",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@lovedone.app"
+  },
+  "homepage": "https://inbox.lovedone.app/agents",
+  "repository": "https://github.com/Terahertz-Inc/lovedone-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "family-care", "inbox", "caregiving", "lovedone"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "LOVEDONE_API_KEY": {
+        "type": "string",
+        "title": "LovedOne Family MCP key",
+        "description": "API key minted at https://inbox.lovedone.app/settings/mcp-keys."
+      }
+    },
+    "required": ["LOVEDONE_API_KEY"]
+  }
+}
