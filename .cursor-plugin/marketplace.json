@@ -13,12 +13,14 @@
     {
       "name": "lovedone-family",
       "source": "lovedone-family",
-      "description": "Authenticated family household inbox, loved ones, and care records for LovedOne."
+      "description": "Authenticated family household inbox, loved ones, and care records for LovedOne.",
+      "logo": "cursor-plugin/lovedone-family/assets/logo.svg"
     },
     {
       "name": "lovedone-soft",
       "source": "lovedone-soft",
-      "description": "LovedOne Soft agency tools: clients, visits, notes, invoices, and scheduling."
+      "description": "LovedOne Soft agency tools: clients, visits, notes, invoices, and scheduling.",
+      "logo": "cursor-plugin/lovedone-soft/assets/logo.svg"
     }
   ]
 }

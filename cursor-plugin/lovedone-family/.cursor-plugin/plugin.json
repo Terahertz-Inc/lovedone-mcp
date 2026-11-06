@@ -10,7 +10,13 @@
   "homepage": "https://inbox.lovedone.app/agents",
   "repository": "https://github.com/Terahertz-Inc/lovedone-mcp",
   "license": "MIT",
-  "keywords": ["mcp", "family-care", "inbox", "caregiving", "lovedone"],
+  "keywords": [
+    "mcp",
+    "family-care",
+    "inbox",
+    "caregiving",
+    "lovedone"
+  ],
   "variables": {
     "type": "object",
     "properties": {
@@ -20,6 +26,9 @@
         "description": "API key minted at https://inbox.lovedone.app/settings/mcp-keys."
       }
     },
-    "required": ["LOVEDONE_API_KEY"]
-  }
+    "required": [
+      "LOVEDONE_API_KEY"
+    ]
+  },
+  "logo": "assets/logo.svg"
 }

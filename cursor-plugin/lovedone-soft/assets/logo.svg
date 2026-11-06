@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Main body gradient: light purple top-left → deep indigo bottom-right -->
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#a78bfa"/>
+      <stop offset="55%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+
+    <!-- Glossy top highlight (subtle white wash over upper third) -->
+    <linearGradient id="gloss" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="40%"  stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.00"/>
+    </linearGradient>
+
+    <!-- Heart fill: pure white with tiny gradient for depth -->
+    <linearGradient id="heart" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+
+    <!-- Soft inner shadow for depth at bottom-right -->
+    <radialGradient id="depth" cx="0.75" cy="0.85" r="0.75">
+      <stop offset="0%"  stop-color="#1e1b4b" stop-opacity="0.0"/>
+      <stop offset="70%" stop-color="#1e1b4b" stop-opacity="0.0"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.25"/>
+    </radialGradient>
+
+    <!-- Drop shadow on heart for slight pop -->
+    <filter id="heartShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="3" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip mask: rounded square (~22% radius — matches iOS) -->
+    <clipPath id="mask">
+      <rect x="0" y="0" width="512" height="512" rx="114" ry="114"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#mask)">
+    <!-- Body -->
+    <rect x="0" y="0" width="512" height="512" fill="url(#body)"/>
+    <!-- Depth shadow (bottom-right) -->
+    <rect x="0" y="0" width="512" height="512" fill="url(#depth)"/>
+    <!-- Top gloss highlight -->
+    <rect x="0" y="0" width="512" height="512" fill="url(#gloss)"/>
+
+    <!-- Heart — classic two-arc + V shape, centered, ~58% of canvas -->
+    <path d="
+      M 256 410
+      C 256 410 96 320 96 210
+      C 96 156 142 116 192 116
+      C 226 116 248 134 256 156
+      C 264 134 286 116 320 116
+      C 370 116 416 156 416 210
+      C 416 320 256 410 256 410 Z"
+      fill="url(#heart)"
+      filter="url(#heartShadow)"/>
+  </g>
+</svg>

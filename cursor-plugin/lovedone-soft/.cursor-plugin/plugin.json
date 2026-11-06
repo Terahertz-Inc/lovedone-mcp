@@ -10,16 +10,25 @@
   "homepage": "https://soft.lovedone.app/agents",
   "repository": "https://github.com/Terahertz-Inc/lovedone-mcp",
   "license": "MIT",
-  "keywords": ["mcp", "home-care", "agency", "scheduling", "lovedone"],
+  "keywords": [
+    "mcp",
+    "home-care",
+    "agency",
+    "scheduling",
+    "lovedone"
+  ],
   "variables": {
     "type": "object",
     "properties": {
       "LOVEDONE_SOFT_API_KEY": {
         "type": "string",
         "title": "LovedOne Soft MCP key",
-        "description": "Agency MCP key from https://soft.lovedone.app (Settings → MCP keys)."
+        "description": "Agency MCP key from https://soft.lovedone.app (Settings \u2192 MCP keys)."
       }
     },
-    "required": ["LOVEDONE_SOFT_API_KEY"]
-  }
+    "required": [
+      "LOVEDONE_SOFT_API_KEY"
+    ]
+  },
+  "logo": "assets/logo.svg"
 }
