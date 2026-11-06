@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lovedone-family",
+  "version": "0.4.1",
+  "description": "Senior tech support for a family household: shared Family Inbox, loved ones and members, and onboarding helpers. Not a medical device and not clinical advice.",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@lovedone.app",
+    "url": "https://lovedone.app"
+  },
+  "homepage": "https://lovedone.app",
+  "repository": "https://github.com/Terahertz-Inc/lovedone-mcp",
+  "license": "MIT",
+  "keywords": [
+    "lovedone",
+    "family",
+    "inbox",
+    "senior-tech-support",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "lovedone-family": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}

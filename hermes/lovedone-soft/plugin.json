@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lovedone-soft",
+  "version": "0.2.1",
+  "description": "Agency operations for LovedOne Soft: clients, visits, visit notes, invoices and scheduling. Senior tech support for office staff \u2014 not a medical device.",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@lovedone.app",
+    "url": "https://lovedone.app"
+  },
+  "homepage": "https://lovedone.app",
+  "repository": "https://github.com/Terahertz-Inc/lovedone-mcp",
+  "license": "MIT",
+  "keywords": [
+    "lovedone",
+    "soft",
+    "agency",
+    "home-care",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "lovedone-soft": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
