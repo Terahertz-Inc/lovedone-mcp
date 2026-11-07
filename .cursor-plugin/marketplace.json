@@ -5,7 +5,7 @@
     "email": "support@lovedone.app"
   },
   "metadata": {
-    "description": "LovedOne Family Inbox and Soft MCP plugins for Cursor.",
+    "description": "LovedOne senior tech support MCP plugins for Cursor: Family Inbox and Soft.",
     "version": "0.4.1",
     "pluginRoot": "cursor-plugin"
   },
@@ -13,13 +13,13 @@
     {
       "name": "lovedone-family",
       "source": "lovedone-family",
-      "description": "Authenticated family household inbox, loved ones, and care records for LovedOne.",
+      "description": "Senior tech support Family Inbox for one household: loved ones, members and messages.",
       "logo": "cursor-plugin/lovedone-family/assets/logo.png"
     },
     {
       "name": "lovedone-soft",
       "source": "lovedone-soft",
-      "description": "LovedOne Soft agency tools: clients, visits, notes, invoices, and scheduling.",
+      "description": "LovedOne Soft for senior tech support teams: clients, visits, notes, invoices and scheduling.",
       "logo": "cursor-plugin/lovedone-soft/assets/logo.png"
     }
   ]

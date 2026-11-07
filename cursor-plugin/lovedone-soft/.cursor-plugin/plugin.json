@@ -1,7 +1,7 @@
 {
   "name": "lovedone-soft",
   "displayName": "LovedOne Soft",
-  "description": "LovedOne Soft agency MCP: clients, visits, notes, invoices, and scheduling. Responses can include care data.",
+  "description": "LovedOne Soft for senior tech support teams: clients, visits, notes, invoices and scheduling. May include personal messages; handle with care.",
   "version": "0.2.1",
   "author": {
     "name": "Terahertz, Inc.",
@@ -12,8 +12,8 @@
   "license": "MIT",
   "keywords": [
     "mcp",
-    "home-care",
-    "agency",
+    "senior-tech-support",
+    "caregiver-coordination",
     "scheduling",
     "lovedone"
   ],
@@ -23,7 +23,7 @@
       "LOVEDONE_SOFT_API_KEY": {
         "type": "string",
         "title": "LovedOne Soft MCP key",
-        "description": "Agency MCP key from https://soft.lovedone.app (Settings \u2192 MCP keys)."
+        "description": "Agency MCP key from https://soft.lovedone.app (Settings → MCP keys)."
       }
     },
     "required": [
