@@ -1,7 +1,7 @@
 {
   "name": "lovedone-family",
   "displayName": "LovedOne Family Inbox",
-  "description": "Authenticated MCP for one LovedOne family household: loved ones, members, and Family Inbox plaintext. Responses can include health information.",
+  "description": "Senior tech support for families: one LovedOne household's Family Inbox, loved ones and members, so caregivers can coordinate help. May include personal messages; handle with care.",
   "version": "0.4.1",
   "author": {
     "name": "Terahertz, Inc.",
@@ -12,9 +12,9 @@
   "license": "MIT",
   "keywords": [
     "mcp",
-    "family-care",
-    "inbox",
-    "caregiving",
+    "senior-tech-support",
+    "family-inbox",
+    "caregiver-coordination",
     "lovedone"
   ],
   "variables": {
@@ -30,5 +30,5 @@
       "LOVEDONE_API_KEY"
     ]
   },
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.png"
 }
