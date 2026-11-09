@@ -1,0 +1,13 @@
+{
+  "name": "lovedone",
+  "version": "0.4.1",
+  "description": "LovedOne Family and Soft MCP servers for senior tech support inbox and Soft agency tools.",
+  "mcpServers": {
+    "lovedone-family": {
+      "httpUrl": "https://api.lovedone.app/mcp/v1"
+    },
+    "lovedone-soft": {
+      "httpUrl": "https://api.lovedone.app/mcp/vendor/v1"
+    }
+  }
+}

@@ -1,5 +1,11 @@
 # LovedOne MCP servers
 
+[![npm](https://img.shields.io/npm/v/lovedone-mcp.svg)](https://www.npmjs.com/package/lovedone-mcp)
+[![npm soft](https://img.shields.io/npm/v/lovedone-soft-mcp.svg)](https://www.npmjs.com/package/lovedone-soft-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-green)](https://registry.modelcontextprotocol.io/v0.1/servers?search=app.lovedone%2Ffamily-inbox)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 **Website:** [lovedone.app](https://lovedone.app) · **Family Inbox:** [inbox.lovedone.app](https://inbox.lovedone.app)
 
 This repo lists LovedOne's Model Context Protocol servers in the official MCP
