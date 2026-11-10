@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LovedOne MCP — public listings for Family and Soft</title>
+  <meta name="description" content="GitHub Pages front door for LovedOne’s public MCP registry listings. Family Inbox and Soft live on lovedone.app; this page points agents and humans there.">
+  <link rel="canonical" href="https://terahertz-inc.github.io/lovedone-mcp/">
+  <style>
+    :root {
+      --paper: #f3eee4;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --rule: #d5cdc0;
+      --card: #fffaf2;
+      --cta: #1c1915;
+      --cta-text: #f3eee4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      line-height: 1.5;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: var(--ink);
+    }
+
+    header, main, footer {
+      width: min(44rem, calc(100% - 2.5rem));
+      margin-inline: auto;
+    }
+
+    header {
+      padding: 2.25rem 0 0;
+    }
+
+    .kicker {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.75rem;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 5vw, 3.15rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin: 0 0 1rem;
+    }
+
+    .lede {
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin: 0 0 1.5rem;
+      max-width: 38rem;
+    }
+
+    .site-link {
+      display: inline-block;
+      background: var(--cta);
+      color: var(--cta-text);
+      text-decoration: none;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.85rem 1.2rem;
+      border-radius: 999px;
+    }
+
+    .site-link:hover,
+    .site-link:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    main {
+      flex: 1;
+      padding: 2.25rem 0 3rem;
+    }
+
+    .servers {
+      display: grid;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .servers li {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 1rem;
+      padding: 1.15rem 1.2rem 1.2rem;
+    }
+
+    .servers h2 {
+      font-size: 1.25rem;
+      margin: 0 0 0.35rem;
+    }
+
+    .servers p {
+      margin: 0 0 0.7rem;
+      color: var(--muted);
+    }
+
+    .servers p:last-child {
+      margin-bottom: 0;
+    }
+
+    .servers a {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.92rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 1.1rem 0 2rem;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Public MCP listing</p>
+    <h1>LovedOne Family and Soft, for agents</h1>
+    <p class="lede">
+      This GitHub Pages site is the public front door for LovedOne’s
+      Model Context Protocol servers. The product itself —
+      the family inbox and the care-agency workspace — lives on the
+      official website.
+    </p>
+    <a class="site-link" href="https://lovedone.app">Go to lovedone.app</a>
+  </header>
+
+  <main>
+    <ul class="servers">
+      <li>
+        <h2>LovedOne Family</h2>
+        <p>
+          One household. An AI client can read that family’s inbox and care
+          records, invite siblings, and send replies — never another family’s data.
+        </p>
+        <p>
+          Spec:
+          <a href="https://docs.lovedone.app/mcp-family">docs.lovedone.app/mcp-family</a>
+        </p>
+      </li>
+      <li>
+        <h2>LovedOne Soft</h2>
+        <p>
+          One care agency. An AI client can read that agency’s clients, visits,
+          and invoices, log notes, and schedule visits — without collecting family keys.
+        </p>
+        <p>
+          Spec:
+          <a href="https://docs.lovedone.app/mcp-vendor">docs.lovedone.app/mcp-vendor</a>
+        </p>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>
+      Registry listings:
+      <a href="https://github.com/Terahertz-Inc/lovedone-mcp">Terahertz-Inc/lovedone-mcp</a>.
+      Product:
+      <a href="https://lovedone.app">lovedone.app</a>.
+    </p>
+  </footer>
+</body>
+</html>
